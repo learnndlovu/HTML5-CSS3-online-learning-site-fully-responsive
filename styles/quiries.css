@@ -1,0 +1,170 @@
+/*993px to 1200px*/
+@media only screen and (max-width: 1200px){
+    .container{max-width: 1100px;}
+
+    .center-items figure img{width: 200px;}
+    
+}
+
+/*769px to 992px*/
+@media only screen and (max-width: 992px){
+
+    .center-items figure img{display: none;}
+
+    .container{max-width:895px;}
+
+    p.course-badge{font-size: 0.8rem;}
+    
+}
+
+/*601px to 768px*/
+@media only screen and (max-width: 768px){
+
+    .fa-bars{
+        display: block !important;
+        cursor: pointer;
+    }
+
+    nav li:not(.mobile){display: none;}
+
+    nav ul{justify-content: space-around;}
+
+    .navbar-search-group input,
+    .navbar-search-group button{
+        height: 40px;
+    }
+
+    .main-area{height: 60vh;}
+
+    .main-area-search,
+    .main-area-search-form{display: none;}
+
+    .courses-grid,
+    .column-grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .only-desktop{display: none;}
+
+    .profile-pic-container{
+        width: 150px;
+        height: 150px;
+    }
+
+    .left-side-items{display: none;}
+
+    .right-side-items{
+        transform: rotate(0deg);
+    }
+}
+
+/*481px to 600px*/
+@media only screen and (max-width: 600px){
+    section.main-area{
+        height: calc(50vh - 112px);
+        min-height: 277px;
+    }
+
+
+    .main-area p{
+        display: none;
+    }
+
+    .courses-grid,
+    .column-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .column-grid{
+        gap: 2rem;
+    }
+
+    .column{margin: 0;}
+
+    .profile-pic-container{
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+    }
+
+    .circle{
+        width: 15px;
+        height: 15px;
+    }
+
+    .controller{
+        width: 200px;
+    }
+
+    .controller-items img{height: 25px;}
+
+    section.login_register{
+        background-position: 80%;
+    }
+
+    .login,
+    .login-container,
+    p.divider{display: none;}
+
+    .form-container{
+        justify-content: center;
+    }
+
+    form li{
+        margin-bottom: 0.9rem;
+    }
+
+    .form-container,
+    .form-card::before{
+        width: 250px;
+        height: 445px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 924px){
+    p.course-price{font-size: 1.2rem;}
+}
+
+/*0px to 480px*/
+@media only screen and (max-width: 480px){
+    .main-area-heading{
+        font-size: 1.3rem;
+        width: 300px;
+    }
+
+    ul.category-list{
+        font-size: 0.8em;
+    }
+
+    .instructor-container{
+        flex-direction: column;
+    }
+    
+    .instructor-detail{text-align: center;}
+
+    .profile-pic-container{
+        width: 200px;
+        height: 200px;
+    }
+
+    .instructor-card{
+        margin: 25px auto;
+    }
+
+    .controller{
+        display: none;
+    }
+
+    table{
+        min-width: 330px;
+        width: 100%;
+    }
+
+    tfoot a{font-size: 0.9em;}
+
+    .column form input[type="email"],
+    .column form button[type='submit']{
+        width: 160px;
+    }
+}
+

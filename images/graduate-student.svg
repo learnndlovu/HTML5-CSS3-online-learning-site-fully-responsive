@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45.231" height="37.926" viewBox="0 0 45.231 37.926">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f9c01e"/>
+      <stop offset="0.05" stop-color="#76c3d4"/>
+      <stop offset="0.899" stop-color="#f9c01e"/>
+      <stop offset="1" stop-color="#7d600f"/>
+    </linearGradient>
+  </defs>
+  <g id="graduate-student" transform="translate(0 -36.844)">
+    <path id="Path_26" data-name="Path 26" class="cls-1" d="M111.1,268.67c0,.722-3.439,2.81-10,2.81s-10-2.088-10-2.81V261.4l-3.746-2.037v9.309c0,4.3,6.914,6.556,13.744,6.556s13.747-2.252,13.747-6.556v-9.309L111.1,261.4Z" transform="translate(-78.693 -200.456)"/>
+    <path id="Path_27" data-name="Path 27" class="cls-1" d="M45.14,70.3l-2.211-7.045a2.421,2.421,0,0,0-.755-4.156v-6.67l1.658-.9a1.873,1.873,0,0,0,0-3.291L23.3,37.072a1.87,1.87,0,0,0-1.79,0L.979,48.238a1.873,1.873,0,0,0,0,3.292L21.511,62.694a1.873,1.873,0,0,0,1.789,0L40.558,53.31V59.1a2.422,2.422,0,0,0-.754,4.157L37.594,70.3A2,2,0,0,0,39.5,72.9h3.734A2,2,0,0,0,45.14,70.3ZM22.406,58.916c-8.305,0-16.611-9.032-16.611-9.032L22.406,40.85l16.61,9.033S30.711,58.916,22.406,58.916Z"/>
+  </g>
+</svg>

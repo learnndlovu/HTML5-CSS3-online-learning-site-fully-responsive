@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coursesite</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/quiries.css">
+    <link rel="stylesheet" href="./styles/css/all.css">
+   
+
+
+   
+
+    <link rel="stylesheet" href="/styles/animate.min.css">
+</head>
+<body>
+    <!-- backdrop -->
+    <div class="backdrop"></div>
+    <!-- side nav -->
+    <div class="main-side-nav">
+        <i class="fas fa-times close-side-nav"></i>
+        <p class="logo">Logo</p>
+        <ul>
+            <li><a href="#">Log In</a></li>
+            <li><a href="#">Register</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">Upload</a></li>
+        </ul>
+        <p id="copy">&copy; onlinecourses</p>
+    </div>
+   <!-- notification -->
+   <div class="top-page-notification">
+       <p>Women's day 2020 | use the <span id="voucher">womenrock</span>  voucher at checkout to get a <span id="discount-percentage">40%</span> OFF discount</p>
+       <i class="fas fa-times notification-close"></i>
+   </div>
+
+   <!-- nav bar -->
+   <nav>
+       <div class="main-nav-container container">
+           <ul class="left-nav-items">
+               <li class="mobile"><i class="fas fa-bars"></i></li>
+               <li class="mobile"><a href="#">Logo</a></li>
+               <li><a href="#">Categories</a></li>
+               <li><a href="#">Upload</a></li>
+           </ul>
+           <form action="" class="navbar-search-group">
+               <input type="text" name="" id="" placeholder="search for anything that you want to learn...">
+               <button class="mobile">
+                   <i class="fas fa-search"></i>
+               </button>
+           </form>
+           <ul class="right-nav-items">
+               <li class="mobile">
+                   <img src="./images/cart-icon.svg" alt="cart image and counter">
+                   <p class="cart-counter">2</p>
+               </li>
+               <li><a href="#">Log in</a></li>
+               <li><a href="#" id="register">Register</a></li>
+           </ul>
+       </div>
+   </nav>
+
+   <!-- main area -->
+
+   <section class="main-area">
+       <div class="center-items">
+           <div class="main-area-text">
+               <h1 class="main-area-heading">
+                Find the perfect course and improve your skills
+               </h1>
+               <p>
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam amet asperiores culpa.
+               </p>
+           </div>
+           <div class="main-area-search">
+               <form action="" class="main-area-search-form">
+                   <input class="main-area-search-input" type="text" placeholder="I want to learn...">
+                   <select>
+                       <option value="P">Price</option>
+                       <option value="D">Date</option>
+                       <option value="L">Course length</option>
+                       <option value="R" selected>Rating</option>
+                   </select>
+                   <button class="main-area-search-button">Search<img src="./images/search.svg"></button>
+               </form>
+           </div>
+       </div>
+   </section>
+
+   <!-- trending courses -->
+   <section class="trending-courses">
+       <h2 class="section-headings">Trending Courses</h2>
+       <ul class="category-list">
+           <li><a href="#">Web development</a></li>
+           <li><a href="#">Django programming</a></li>
+           <li><a href="#">Photography</a></li>
+           <li><a href="#">Forex trading</a></li>
+           <li><a href="#">Graphic design</a></li>
+           <li><a href="#">Accounting</a></li>
+           <li><a href="#">Health &amp; Fitness</a></li>
+           <li><a id="active" href="#">All categories</a></li>
+       </ul>
+       <div class="courses-grid container">
+           <!-- wow -->
+           <div class="wow animate__tada animate__animated animate__repeat-2 single-course">
+               <div class="top-card-section">
+                   <img src="./images/course_01.png" alt="course image">
+                   <p class="course-badge">BEST</p>
+               </div>
+               <div class="course-details">
+                   <p>Build amazing responsive websites using HTML5 and CSS3</p>
+                   <ul class="rating-stars">
+                       <li><img src="./images/star-solid.svg" alt="star"></li>
+                       <li><img src="./images/star-solid.svg" alt="star"></li>
+                       <li><img src="./images/star-solid.svg" alt="star"></li>
+                       <li><img src="./images/star-solid.svg" alt="star"></li>
+                       <li><img src="./images/star-solid.svg" alt="star"></li>
+                   </ul>
+                   <p class="students-rating">(500k)</p>
+                   <p>1.2m enrolled students</p>
+                   <div class="price-container">
+                       <p class="course-price">$86.99</p>
+                       <button>Enroll</button>
+                   </div>
+               </div>
+           </div>
+           <div class="single-course">
+               <div class="top-card-section">
+                   <img src="./images/course_02.png" alt="course image">
+               </div>
+               <div class="course-details">
+                   <p>Learn how to trade stocks like a professional in just twenty days</p>
+                   <ul class="rating-stars">
+                       <li><img src="./images/star-solid.svg" alt="star"></li>
+                       <li><img src="./images/star-solid.svg" alt="star"></li>
+                       <li><img src="./images/star-solid.svg" alt="star"></li>
+                       <li><img src="./images/star-solid.svg" alt="star"></li>
+                       <li><img src="./images/star-solid.svg" alt="star"></li>
+                   </ul>
+                   <p class="students-rating">(78k)</p>
+                   <p>400k enrolled students</p>
+                   <div class="price-container">
+                       <p class="course-price">$86.99</p>
+                       <button>Enroll</button>
+                   </div>
+               </div>
+           </div>
+           <div class="single-course">
+               <div class="top-card-section">
+                   <img src="./images/course_03.png" alt="course image">
+               </div>
+               <div class="course-details">
+                   <p>The complete artificial intelligence course using tensorflow and python 3</p>
+                   <ul class="rating-stars">
+                       <li><img src="./images/star-solid.svg" alt="star"></li>
+                       <li><img src="./images/star-solid.svg" alt="star"></li>
+                       <li><img src="./images/star-solid.svg" alt="star"></li>
+                       <li><img src="./images/star-solid.svg" alt="star"></li>
+                       <li><img src="./images/star-solid.svg" alt="star"></li>
+                   </ul>
+                   <p class="students-rating">(52.5k)</p>
+                   <p>300k enrolled students</p>
+                   <div class="price-container">
+                       <p class="course-price">$86.99</p>
+                       <button>Enroll</button>
+                   </div>
+               </div>
+           </div>
+           <div class="single-course">
+               <div class="top-card-section">
+                   <img src="./images/course_04.png" alt="course image">
+               </div>
+               <div class="course-details">
+                   <p>Master the art of taking beautiful photos from beginner to professional</p>
+                   <ul class="rating-stars">
+                       <li><img src="./images/star-solid.svg" alt="star"></li>
+                       <li><img src="./images/star-solid.svg" alt="star"></li>
+                       <li><img src="./images/star-solid.svg" alt="star"></li>
+                       <li><img src="./images/star-solid.svg" alt="star"></li>
+                       <li><img src="./images/star-solid.svg" alt="star"></li>
+                   </ul>
+                   <p class="students-rating">(768k)</p>
+                   <p>4.6m enrolled students</p>
+                   <div class="price-container">
+                       <p class="course-price">$86.99</p>
+                       <button>Enroll</button>
+                   </div>
+               </div>
+           </div>
+           <div class="single-course">
+               <div class="top-card-section">
+                   <img src="./images/course_05.png" alt="course image">
+               </div>
+               <div class="course-details">
+                   <p>The best course to learn how to play a piano and become a master</p>
+                   <ul class="rating-stars">
+                       <li><img src="./images/star-solid.svg" alt="star"></li>
+                       <li><img src="./images/star-solid.svg" alt="star"></li>
+                       <li><img src="./images/star-solid.svg" alt="star"></li>
+                       <li><img src="./images/star-solid.svg" alt="star"></li>
+                       <li><img src="./images/star-solid.svg" alt="star"></li>
+                   </ul>
+                   <p class="students-rating">(27k)</p>
+                   <p>200k enrolled students</p>
+                   <div class="price-container">
+                       <p class="course-price">$86.99</p>
+                       <button>Enroll</button>
+                   </div>
+               </div>
+           </div>
+           <div class="single-course">
+               <div class="top-card-section">
+                   <img src="./images/course_06.png" alt="course image">
+               </div>
+               <div class="course-details">
+                   <p>Basics of electricity.Learn about voltage, current, charge</p>
+                   <ul class="rating-stars">
+                       <li><img src="./images/star-solid.svg" alt="star"></li>
+                       <li><img src="./images/star-solid.svg" alt="star"></li>
+                       <li><img src="./images/star-solid.svg" alt="star"></li>
+                       <li><img src="./images/star-solid.svg" alt="star"></li>
+                       <li><img src="./images/star-solid.svg" alt="star"></li>
+                   </ul>
+                   <p class="students-rating">(168k)</p>
+                   <p>500k enrolled students</p>
+                   <div class="price-container">
+                       <p class="course-price">$86.99</p>
+                       <button>Enroll</button>
+                   </div>
+               </div>
+           </div>
+           <div class="single-course only-desktop">
+               <div class="top-card-section">
+                   <img src="./images/course_07.png" alt="course image">
+               </div>
+               <div class="course-details">
+                   <p>Web development from absolute beginner using Django</p>
+                   <ul class="rating-stars">
+                       <li><img src="./images/star-solid.svg" alt="star"></li>
+                       <li><img src="./images/star-solid.svg" alt="star"></li>
+                       <li><img src="./images/star-solid.svg" alt="star"></li>
+                       <li><img src="./images/star-solid.svg" alt="star"></li>
+                       <li><img src="./images/star-solid.svg" alt="star"></li>
+                   </ul>
+                   <p class="students-rating">(689k)</p>
+                   <p>2.2m enrolled students</p>
+                   <div class="price-container">
+                       <p class="course-price">$86.99</p>
+                       <button>Enroll</button>
+                   </div>
+               </div>
+           </div>
+           <div class="single-course only-desktop">
+               <div class="top-card-section">
+                   <img src="./images/course_08.png" alt="course image">
+               </div>
+               <div class="course-details">
+                   <p>How to start your own charity organisation</p>
+                   <ul class="rating-stars">
+                       <li><img src="./images/star-solid.svg" alt="star"></li>
+                       <li><img src="./images/star-solid.svg" alt="star"></li>
+                       <li><img src="./images/star-solid.svg" alt="star"></li>
+                       <li><img src="./images/star-solid.svg" alt="star"></li>
+                       <li><img src="./images/star-solid.svg" alt="star"></li>
+                   </ul>
+                   <p class="students-rating">(968k)</p>
+                   <p>5.9m enrolled students</p>
+                   <div class="price-container">
+                       <p class="course-price">$86.99</p>
+                       <button>Enroll</button>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
+   <!-- top instructors -->
+   <section class="top-instructors">
+       <h2 class="section-headings">Top instructors</h2>
+       <div class="instructor-container container">
+           <div class="wow animate__animated animate__fadeInTopLeft instructor-card">
+               <div class="profile-pic-container">
+                   <figure class="profile-pic-border">
+                       <img src="./images/instructor_01.jpg" alt="profile pic" class="profile-picture">
+                   </figure>
+               </div>
+               <p class="instructor-name">Carol Zulu</p>
+
+               <div class="instructor-detail">
+                   <i><img src="./images/graduate-student.svg" alt=""></i>
+                   300k
+               </div>
+               <div class="instructor-detail">
+                   <i><img src="./images/tick.svg" alt=""></i>
+                   Python
+               </div>
+               <div class="instructor-detail">
+                   <i><img src="./images/tick.svg" alt=""></i>
+                   Java
+               </div>
+               <div class="instructor-detail">
+                   <i><img src="./images/tick.svg" alt=""></i>
+                   Django
+               </div>
+           </div>
+           <!-- 2nd -->
+           <div class="wow animate__animated animate__shakeX animate__delay-1s instructor-card">
+               <div class="profile-pic-container">
+                   <figure class="profile-pic-border">
+                       <img src="./images/instructor_02.jpg" alt="profile pic" class="profile-picture">
+                   </figure>
+               </div>
+               <p class="instructor-name">Keith Jordan</p>
+
+               <div class="instructor-detail">
+                   <i><img src="./images/graduate-student.svg" alt=""></i>
+                   259k
+               </div>
+               <div class="instructor-detail">
+                   <i><img src="./images/tick.svg" alt=""></i>
+                   css3
+               </div>
+               <div class="instructor-detail">
+                   <i><img src="./images/tick.svg" alt=""></i>
+                   html5
+               </div>
+               <div class="instructor-detail">
+                   <i><img src="./images/tick.svg" alt=""></i>
+                   SQL
+               </div>
+           </div>
+           <!-- 3rd -->
+           <div class="wow animate__animated animate__fadeInBottomRight instructor-card">
+               <div class="profile-pic-container">
+                   <figure class="profile-pic-border">
+                       <img src="./images/instructor_03.jpg" alt="profile pic" class="profile-picture">
+                   </figure>
+               </div>
+               <p class="instructor-name">Nomzamo</p>
+
+               <div class="instructor-detail">
+                   <i><img src="./images/graduate-student.svg" alt=""></i>
+                   1.2m
+               </div>
+               <div class="instructor-detail">
+                   <i><img src="./images/tick.svg" alt=""></i>
+                   React
+               </div>
+               <div class="instructor-detail">
+                   <i><img src="./images/tick.svg" alt=""></i>
+                   Accounting
+               </div>
+               <div class="instructor-detail">
+                   <i><img src="./images/tick.svg" alt=""></i>
+                   Taxation
+               </div>
+           </div>
+       </div>
+       <div class="controller">
+           <div class="controller-items">
+               <i><img src="./images/left-chevron.svg" alt=""></i>
+               <div class="circle"></div>
+               <div class="circle"></div>
+               <div class="circle"></div>
+               <div class="circle"></div>
+               <i><img src="./images/right-chevron.svg" alt=""></i>
+           </div>
+       </div>
+   </section>
+   <!-- login register -->
+   <section class="login_register">
+       <div class="form-container">
+           <div class="login-container">
+               <div class="form-card login">
+                   <h2>Login</h2>
+                   <form action="#" class="login-form">
+                       <ul>
+                           <li>
+                               <label for="email">Email</label>
+                               <i class="far fa-envelope icon"></i>
+                               <input type="email" id="email" name="user_email" placeholder="Enter your email">
+                           </li>
+                           <li>
+                               <label for="password">Password</label>
+                               <i class="fas fa-lock icon"></i>
+                               <input type="password" id="password" name="user_password" placeholder="Enter your password">
+                           </li>
+                           <li>
+                               <button type="submit">Submit</button>
+                           </li>
+                       </ul>
+                   </form>
+               </div>
+           </div>
+
+           <p class="divider">or</p>
+
+            <div class="register-container">
+                <div class="form-card register">
+                    <h2>Register</h2>
+                    <form action="#" class="register-form">
+                        <ul>
+                            <li>
+                                <label for="reg_name">Name</label>
+                                <i class="far fa-user icon"></i>
+                                <input type="text" id="reg_name" name="user_name" placeholder="Enter your name">
+                            </li>
+                            <li>
+                                <label for="surname">Surname</label>
+                                <i class="far fa-user icon"></i>
+                                <input type="text" id="surname" name="user_surname" placeholder="Enter your surname">
+                            </li>
+                            <li>
+                                <label for="reg_email">Email</label>
+                                <i class="far fa-envelope icon"></i>
+                                <input type="email" id="reg_email" name="user_email" placeholder="Enter your email">
+                            </li>
+                            <li>
+                                <label for="reg_password">Password</label>
+                                <i class="fas fa-lock icon"></i>
+                                <input type="password" id="reg_password" name="user_password" placeholder="Enter your password">
+                            </li>
+                            <li>
+                                <label for="confirm_password">Confirm Password</label>
+                                <i class="fas fa-lock icon"></i>
+                                <input type="password" id="confirm_password" name="password2" placeholder="Enter your password">
+                            </li>
+                            <li>
+                                <button type="submit">Submit</button>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+            </div>
+       </div>
+   </section>
+   <!-- table packages -->
+   <section class="packages">
+       <h2 class="packages-section-heading">Pricing and Features</h2>
+       <table class="container">
+           <thead>
+               <tr>
+                   <th>Features</th>
+                   <th>Standard</th>
+                   <th>Premium</th>
+               </tr>
+           </thead>
+           <tbody>
+               <tr>
+                   <td><i class="fas fa-globe globe icon"></i>Unlimited access</td>
+                   <td><img src="./images/close.svg" alt="close"></td>
+                   <td><img src="./images/green-tick.svg" alt="close"></td>
+               </tr>
+               <tr>
+                   <td><i class="fas fa-envelope envelope icon"></i>Promotional emails</td>
+                   <td><img src="./images/green-tick.svg" alt="close"></td>
+                   <td><img src="./images/green-tick.svg" alt="close"></td>
+               </tr>
+               <tr>
+                   <td><i class="fas fa-bolt lightning icon"></i>Fast load time</td>
+                   <td><img src="./images/green-tick.svg" alt="close"></td>
+                   <td><img src="./images/green-tick.svg" alt="close"></td>
+               </tr>
+               <tr>
+                   <td><i class="fas fa-chalkboard-teacher teacher icon"></i>Personal tutorship</td>
+                   <td><img src="./images/close.svg" alt="close"></td>
+                   <td><img src="./images/green-tick.svg" alt="close"></td>
+               </tr>
+               <tr>
+                   <td><i class="fas fa-question-circle question icon"></i>Q and A</td>
+                   <td><img src="./images/close.svg" alt="close"></td>
+                   <td><img src="./images/green-tick.svg" alt="close"></td>
+               </tr>
+           </tbody>
+           <tfoot>
+               <tr>
+                   <td></td>
+                   <td><a href="#">try standard</a></td>
+                   <td><a href="#">try premium</a></td>
+               </tr>
+           </tfoot>
+       </table>
+   </section>
+
+   <!-- apps download -->
+
+   <section class="apps-download">
+       <div class="container center">
+           <div class="left-side-items">
+               <h2>Use any device</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, porro odio! Qui</p>
+               <div class="download-links">
+                   <a href="#"><img src="./images/app-store-logo.svg" alt=""></a>
+                   <a href="#"><img src="./images/google-logo.png" alt=""></a>
+               </div>
+           </div>
+           <div class="center-items">
+               <figure>
+                   <img src="./images/devices.jpg" alt="">
+               </figure>
+           </div>
+           <div class="right-side-items">
+            <h2>Study anywhere</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, porro odio! Qui</p>
+            <div class="download-links">
+                <a href="#"><img src="./images/app-store-logo.svg" alt=""></a>
+                <a href="#"><img src="./images/google-logo.png" alt=""></a>
+           </div>
+       </div>
+   </section>
+   <!-- footer -->
+   <footer>
+       <div class="container column-grid">
+           <div class="column">
+               <h3>Our Comapany</h3>
+               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti ex id vero voluptatem nostrum. Aliquid.</p>
+           </div>
+
+           <div class="column">
+                <h3>Subscribe</h3>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <form action="#">
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit">Subscribe</button>
+                </form>
+           </div>
+
+           <div class="column">
+                <h3>Our Services</h3>
+                <a href="#">lorem ipsum link</a>
+                <a href="#">lorem ipsum link</a>
+                <a href="#">lorem ipsum link</a>
+                <a href="#">lorem ipsum link</a>
+           </div>
+
+           <div class="column">
+                <h3>Mobile Apps</h3>
+                <a href="#"><img src="./images/app-store-logo.svg" alt=""></a>
+                <a href="#"><img src="./images/google-logo.png" alt=""></a>
+           </div>
+       </div>
+   </footer>
+    <script src="./scripts/app.js"></script>
+    <script src="/scripts/wow.min.js"></script>
+    <script>
+        var wow = new WOW({
+
+                offset: 500, // distance to the element when triggering the animation (default is 0) 
+
+                mobile: false // trigger animations on mobile devices (default is true) 
+
+            });
+
+            wow.init();
+    </script>
+</body>
+</html>
